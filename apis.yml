@@ -1,0 +1,91 @@
+aid: bessemer-venture-partners
+name: Bessemer Venture Partners
+description: >-
+  Bessemer Venture Partners (BVP) is one of the oldest and largest venture
+  capital firms in the world, founded in 1911 out of the fortune of steel
+  magnate Henry Phipps and headquartered in San Francisco, California. With more
+  than $20 billion in assets under management and investment teams in San
+  Francisco, Silicon Valley, New York, Boston, London, Bangalore, and Tel Aviv,
+  Bessemer invests globally across seed, early, and growth stages, and runs a
+  dedicated private equity buyout arm, BVP Forge. The firm invests across
+  artificial intelligence and machine learning, cloud and infrastructure,
+  developer tools, cybersecurity, fintech, healthcare and biotech, consumer,
+  marketplaces, vertical software, data, deep tech and defense, and crypto/web3.
+  Bessemer has backed transformative companies including Shopify, Twilio,
+  Pinterest, LinkedIn, Yelp, DocuSign, Wix, Fiverr, Toast, ServiceTitan,
+  PagerDuty, Auth0, Box, and Canva, and is known for publishing its "Anti-
+  Portfolio" of missed opportunities, its Atlas research roadmaps, and its
+  cloud/state-of-the-industry benchmark reports. Investing out of its 12th
+  early-stage fund (a $3.85B vehicle), Bessemer was ranked among the largest
+  venture firms by five-year fundraising. This profile tracks Bessemer's
+  identity and its portfolio graph across the API Evangelist network.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+  - Venture Capital
+  - Seed
+  - Early Stage
+  - Growth Equity
+  - Artificial Intelligence
+  - Cloud
+  - Developer Tools
+  - Cybersecurity
+  - Fintech
+  - Healthcare
+  - United States
+  - Global
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/bessemer-venture-partners/refs/heads/main/apis.yml
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.bvp.com/
+  - type: Portfolio
+    url: https://www.bvp.com/companies
+  - type: Portfolio
+    url: portfolio/bessemer-venture-partners-portfolio.yml
+  - type: Team
+    url: https://www.bvp.com/team
+  - type: Team
+    url: team/bessemer-venture-partners-team.yml
+  - type: InvestmentThesis
+    url: https://www.bvp.com/atlas
+  - type: Blog
+    url: https://www.bvp.com/atlas
+  - type: Podcast
+    url: https://www.bvp.com/podcasts
+  - type: Jobs
+    url: https://jobs.bvp.com/
+  - type: Contact
+    url: https://www.bvp.com/contact
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bessemer-venture-partners
+  - type: Twitter
+    url: https://twitter.com/BessemerVP
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/bessemer-venture-partners
+  - type: Features
+    data:
+      - "Stage: Seed, Early, Growth (plus BVP Forge private equity buyout)"
+      - "Sectors: AI & ML, cloud, developer tools, cybersecurity, fintech, healthcare, biotech, consumer, marketplaces, vertical software, data, deep tech & defense, crypto/web3"
+      - "Geography: Global (US, Europe, Israel, India)"
+      - "AUM: $20B+ (self-reported)"
+      - "Founded: 1911"
+      - "HQ: San Francisco, CA"
+      - "Offices: San Francisco, Silicon Valley, New York, Boston, London, Bangalore, Tel Aviv"
+      - "Current fund: 12th early-stage fund, $3.85B (2022); BVP Forge, $780M (2022)"
+    sources:
+      - https://www.bvp.com/about
+      - https://en.wikipedia.org/wiki/Bessemer_Venture_Partners
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Bessemer Venture Partners
+    url: https://www.bvp.com/
