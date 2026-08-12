@@ -147,7 +147,7 @@ companies:
   sector: fintech
   status: active
   source: https://www.bvp.com/companies
-  slug: alloy
+  slug: alloy-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2222,7 +2222,7 @@ companies:
   sector: fintech
   status: active
   source: https://www.bvp.com/companies
-  slug: lithic
+  slug: lithic-com
   in_network: true
   is_api_provider: true
   matched_by: domain
