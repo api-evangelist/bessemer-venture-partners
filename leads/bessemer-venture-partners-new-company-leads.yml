@@ -79,13 +79,6 @@ leads:
   source_vc: bessemer-venture-partners
   source: https://www.bvp.com/companies
   stub_created: false
-- name: Flarion Technologies
-  url: ''
-  suggested_slug: flarion-technologies
-  sector: unknown
-  source_vc: bessemer-venture-partners
-  source: https://www.bvp.com/companies
-  stub_created: false
 - name: InRisk
   url: https://inrisk.insure/
   suggested_slug: inrisk-insure
@@ -125,13 +118,6 @@ leads:
   url: https://www.getport.io/
   suggested_slug: port
   sector: developer
-  source_vc: bessemer-venture-partners
-  source: https://www.bvp.com/companies
-  stub_created: false
-- name: Spruce
-  url: ''
-  suggested_slug: spruce
-  sector: fintech
   source_vc: bessemer-venture-partners
   source: https://www.bvp.com/companies
   stub_created: false

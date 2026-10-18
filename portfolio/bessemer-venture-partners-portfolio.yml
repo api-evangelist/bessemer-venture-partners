@@ -3,9 +3,9 @@ method: searched
 source: https://www.bvp.com/companies
 summary:
   portfolio_total: 518
-  in_network: 496
-  api_providers: 133
-  missing: 22
+  in_network: 498
+  api_providers: 134
+  missing: 20
   stubs_created: 0
 companies:
 - name: 2U
@@ -1519,10 +1519,12 @@ companies:
   sector: unknown
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flarion-technologies
-  x-url-candidate: https://www.flarion.io/
+  url: https://www.flarion.io/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: flarion
+  matched_by: domain
 - name: Flex Pharma, Inc.
   url: https://www.flex-pharma.com
   sector: healthcare
@@ -3732,10 +3734,12 @@ companies:
   sector: fintech
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spruce
-  x-url-candidate: https://sprucehealth.com:443/
+  in_network: true
+  is_api_provider: true
+  url: https://sprucehealth.com:443/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: spruce-health
+  matched_by: domain
 - name: Staircase
   url: https://www.staircase.co/
   sector: fintech
