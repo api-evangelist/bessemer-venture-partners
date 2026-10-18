@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://www.bvp.com/companies
 summary:
-  portfolio_total: 521
-  in_network: 521
-  api_providers: 128
-  missing: 0
+  portfolio_total: 519
+  in_network: 497
+  api_providers: 134
+  missing: 22
   stubs_created: 0
 companies:
 - name: 2U
@@ -40,10 +40,10 @@ companies:
   sector: marketplaces
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: acquirecom-fka-microacquire
-  matched_by: name-slug
+  x-name-collision: acquirecom-fka-microacquire
+  suggested_slug: microacquire-com
 - name: ACTIV Financial Systems
   url: https://www.activfinancial.com
   sector: fintech
@@ -87,7 +87,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: affirmed-networks
+  slug: affirmed
   matched_by: domain
 - name: AIMon
   url: https://www.aimon.ai/
@@ -156,7 +156,7 @@ companies:
   sector: healthcare
   status: ipo
   source: https://www.bvp.com/companies
-  slug: veradigm
+  slug: allscripts
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -165,10 +165,10 @@ companies:
   sector: deep-tech
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: altair-semiconductor
-  matched_by: name-slug
+  x-name-collision: altair-semiconductor
+  suggested_slug: altair-semi-com
 - name: Amperos
   url: https://www.amperos.com/
   sector: ai-ml
@@ -176,7 +176,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: amperos
+  slug: amperos-health
   matched_by: domain
 - name: Anaqua
   url: https://www.anaqua.com/
@@ -210,10 +210,10 @@ companies:
   sector: developer
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: anunta
-  matched_by: name-slug
+  x-name-collision: anunta
+  suggested_slug: anuntatech-com
 - name: ANYbotics
   url: https://www.anybotics.com/anymal-autonomous-legged-robot/
   sector: deep-tech
@@ -293,7 +293,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: astrix
+  slug: astrix-security
   matched_by: domain
 - name: Atomo Coffee
   url: https://atomocoffee.com/
@@ -597,7 +597,7 @@ companies:
   status: acquired
   source: https://www.bvp.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: bread-financial
   matched_by: name-slug
 - name: Breaker
@@ -605,10 +605,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: breaker
-  matched_by: name-slug
+  x-name-collision: breaker
+  suggested_slug: breakerindustries-com
 - name: BrightBytes
   url: https://www.brightbytes.net
   sector: cloud
@@ -785,10 +785,10 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clarity
-  matched_by: name-slug
+  x-name-collision: clarity
+  suggested_slug: getclarity-ai
 - name: Clarity Money
   url: https://claritymoney.com/
   sector: fintech
@@ -982,10 +982,10 @@ companies:
   sector: deep-tech
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cpower-inc
-  matched_by: name-slug
+  x-name-collision: cpower-inc
+  suggested_slug: cpowerenergymanagement-com
 - name: Crash Override
   url: https://crashoverride.com/
   sector: cybersecurity
@@ -1000,10 +1000,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: crete-professionals-alliance
-  matched_by: name-slug
+  x-name-collision: crete-professionals-alliance
+  suggested_slug: cretepa-com
 - name: CRI
   url: https://www.criadv.com/
   sector: fintech
@@ -1080,10 +1080,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: dashbot
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: dashbot
+  suggested_slug: dashbot-io
 - name: Dashlane
   url: https://www.dashlane.com/
   sector: cybersecurity
@@ -1107,10 +1107,10 @@ companies:
   sector: vertical-software
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: databook
-  matched_by: name-slug
+  x-name-collision: databook
+  suggested_slug: trydatabook-com
 - name: Datafy
   url: https://www.datafy.com/
   sector: cloud
@@ -1250,10 +1250,10 @@ companies:
   sector: deep-tech
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dominion-dynamics
-  matched_by: name-slug
+  x-name-collision: dominion-dynamics
+  suggested_slug: dominion-dynamics-com
 - name: Doppel
   url: https://www.doppel.com/
   sector: ai-ml
@@ -1313,7 +1313,7 @@ companies:
   status: acquired
   source: https://www.bvp.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: dynamic-yield
   matched_by: domain
 - name: Easebuzz
@@ -1332,7 +1332,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: eeye-digital-security
+  slug: eye-security
   matched_by: domain
 - name: Electric
   url: https://www.electric.ai/
@@ -1365,10 +1365,9 @@ companies:
   sector: cybersecurity
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: endgame
-  matched_by: domain
+  suggested_slug: endgame
 - name: Enjoei
   url: https://www.enjoei.com.br/
   sector: consumer
@@ -1516,10 +1515,9 @@ companies:
   sector: unknown
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: flarion-technologies
-  matched_by: name-slug
+  suggested_slug: flarion-technologies
 - name: Flex Pharma, Inc.
   url: https://www.flex-pharma.com
   sector: healthcare
@@ -1588,9 +1586,9 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.bvp.com/companies
-  slug: shield-ai
+  slug: foxglove-technologies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Fractyl Health
   url: https://www.fractyl.com/
@@ -1812,9 +1810,9 @@ companies:
   sector: cloud
   status: active
   source: https://www.bvp.com/companies
-  slug: hibob
+  slug: astropay
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Hinge Health
   url: https://www.hingehealth.com/
@@ -1886,7 +1884,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: iag-research-inc
+  slug: iag
   matched_by: domain
 - name: illoca
   url: https://illoca.com/
@@ -1964,10 +1962,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: inrisk
-  matched_by: name-slug
+  x-name-collision: inrisk
+  suggested_slug: inrisk-insure
 - name: Insmed
   url: https://www.insmed.com/
   sector: biotech
@@ -1991,10 +1989,9 @@ companies:
   sector: cloud
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: intacct
-  matched_by: domain
+  suggested_slug: intacct
 - name: Intego
   url: https://www.intego.com/?sr=1
   sector: consumer
@@ -2036,7 +2033,7 @@ companies:
   status: active
   source: https://www.bvp.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: jasper
   matched_by: domain
 - name: Jingle
@@ -2071,7 +2068,7 @@ companies:
   status: acquired
   source: https://www.bvp.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: kenna-security
   matched_by: domain
 - name: Kindred
@@ -2204,10 +2201,10 @@ companies:
   sector: cybersecurity
   status: ipo
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lifelock
-  matched_by: name-slug
+  x-name-collision: lifelock
+  suggested_slug: lifelock-com
 - name: LinkedIn
   url: https://www.linkedin.com/
   sector: consumer
@@ -2368,15 +2365,6 @@ companies:
   is_api_provider: false
   slug: medi-assist
   matched_by: domain
-- name: MediBuddy (fka DocsApp)
-  url: https://www.medibuddy.in/
-  sector: healthcare
-  status: active
-  source: https://www.bvp.com/companies
-  in_network: true
-  is_api_provider: false
-  slug: medi-assist
-  matched_by: domain
 - name: MediSage
   url: https://mymedisage.com/home
   sector: healthcare
@@ -2523,7 +2511,7 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.bvp.com/companies
-  slug: sandbox-banking
+  slug: ncino
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2568,7 +2556,7 @@ companies:
   sector: healthcare
   status: acquired
   source: https://www.bvp.com/companies
-  slug: netsmart-technologies
+  slug: netsmart
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -2631,10 +2619,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: noded-ai
-  matched_by: name-slug
+  x-name-collision: noded-ai
+  suggested_slug: noded-so
 - name: Nominum
   url: https://www.akamai.com/us/en/products/network-operator/
   sector: cybersecurity
@@ -2863,10 +2851,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pepper-content
-  matched_by: name-slug
+  x-name-collision: pepper-content
+  suggested_slug: peppercontent-io
 - name: Peptone
   url: https://peptone.io/
   sector: biotech
@@ -3014,10 +3002,9 @@ companies:
   sector: developer
   status: active
   source: https://www.bvp.com/companies
-  slug: port
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
+  in_network: false
+  is_api_provider: false
+  suggested_slug: port
 - name: Portainer
   url: https://www.portainer.io/
   sector: developer
@@ -3211,7 +3198,7 @@ companies:
   source: https://www.bvp.com/companies
   slug: recall-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Recurrency
   url: https://www.recurrency.com/
@@ -3229,7 +3216,7 @@ companies:
   source: https://www.bvp.com/companies
   slug: relevance-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Remedio
   url: https://remedio.io/
@@ -3433,7 +3420,7 @@ companies:
   status: active
   source: https://www.bvp.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: seam-ai
   matched_by: domain
 - name: Second Measure
@@ -3443,7 +3430,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: secondmeasure
+  slug: second-measure
   matched_by: domain
 - name: Sedona Systems
   url: https://sedonasys.com/
@@ -3735,10 +3722,9 @@ companies:
   sector: fintech
   status: acquired
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: spruce
-  matched_by: name-slug
+  suggested_slug: spruce
 - name: Staircase
   url: https://www.staircase.co/
   sector: fintech
@@ -3753,10 +3739,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: statespace
-  matched_by: name-slug
+  x-name-collision: statespace
+  suggested_slug: statespace-gg
 - name: Storwize
   url: https://www.ibm.com/it-infrastructure/storage/storwize
   sector: unknown
@@ -3843,7 +3829,7 @@ companies:
   status: active
   source: https://www.bvp.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: sweep
   matched_by: domain
 - name: Swiggy
@@ -3871,16 +3857,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: true
-  slug: tackle
-  matched_by: domain
-- name: TaxiForSure
-  url: https://www.olacabs.com/
-  sector: consumer
-  status: acquired
-  source: https://www.bvp.com/companies
-  slug: ola
-  in_network: true
-  is_api_provider: false
+  slug: tackleio
   matched_by: domain
 - name: Teachable
   url: https://teachable.com/
@@ -3960,7 +3937,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: exploration
+  slug: the-exploration-company
   matched_by: domain
 - name: ThreatTrack Security
   sector: cybersecurity
@@ -4002,7 +3979,7 @@ companies:
   sector: vertical-software
   status: ipo
   source: https://www.bvp.com/companies
-  slug: toast-tab
+  slug: toast
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -4046,10 +4023,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: transbnk
-  matched_by: name-slug
+  x-name-collision: transbnk
+  suggested_slug: transbnk-co-in
 - name: TRIANA Biomedicines
   url: https://trianabio.com/
   sector: biotech
@@ -4127,9 +4104,9 @@ companies:
   sector: healthcare
   status: active
   source: https://www.bvp.com/companies
-  slug: turquoise
+  slug: turquoise-health
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Twilio
   url: https://www.twilio.com/
@@ -4154,10 +4131,9 @@ companies:
   sector: fintech
   status: active
   source: https://www.bvp.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: ual
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: uala
 - name: Unframe AI
   url: https://www.unframe.ai/
   sector: ai-ml
@@ -4209,7 +4185,7 @@ companies:
   source: https://www.bvp.com/companies
   in_network: true
   is_api_provider: false
-  slug: upside
+  slug: upside-services
   matched_by: domain
 - name: Upvest
   url: https://upvest.co/
@@ -4448,7 +4424,7 @@ companies:
   sector: vertical-software
   status: ipo
   source: https://www.bvp.com/companies
-  slug: weave-hq
+  slug: weave
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -4538,7 +4514,7 @@ companies:
   sector: deep-tech
   status: ipo
   source: https://www.bvp.com/companies
-  slug: xanadu
+  slug: xanadu-ai
   in_network: true
   is_api_provider: false
   matched_by: domain
